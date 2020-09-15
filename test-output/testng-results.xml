@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39038" started-at="2020-09-14T11:03:13 EDT" finished-at="2020-09-14T11:03:52 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39038" started-at="2020-09-14T11:03:13 EDT" finished-at="2020-09-14T11:03:52 EDT">
+      <class name="com.automationPractice.qa.tests.E2ETC">
+        <test-method status="PASS" signature="config_extentReport()[pri:0, instance:com.automationPractice.qa.tests.E2ETC@646d64ab]" name="config_extentReport" is-config="true" duration-ms="1128" started-at="2020-09-14T11:03:11 EDT" finished-at="2020-09-14T11:03:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_extentReport -->
+        <test-method status="PASS" signature="initializeBrowser_hitUrl()[pri:0, instance:com.automationPractice.qa.tests.E2ETC@646d64ab]" name="initializeBrowser_hitUrl" is-config="true" duration-ms="23475" started-at="2020-09-14T11:03:13 EDT" finished-at="2020-09-14T11:03:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser_hitUrl -->
+        <test-method status="FAIL" signature="E2E(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.CharSequence;, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationPractice.qa.tests.E2ETC@646d64ab]" name="E2E" duration-ms="14005" started-at="2020-09-14T11:03:36 EDT" data-provider="get_SignUpForm_Data" finished-at="2020-09-14T11:03:50 EDT">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void com.automationPractice.qa.tests.E2ETC.E2E(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.CharSequence[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: E2E([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=11, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=12, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=13, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=14, type=[Ljava.lang.CharSequence;, declaredAnnotations=[]}, Parameter{index=15, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=16, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=17, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=18, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) er.ambrishmalwa1@gmail.com,(java.lang.String) Ambrish,(java.lang.String) Malwa,(java.lang.String) Ambrish123,(java.lang.String) 24.0,(java.lang.String) November,(java.lang.String) 1987.0,(java.lang.String) Ambrish,(java.lang.String) Malwa,(java.lang.String) ABC,(java.lang.String) 51.0,(java.lang.String)  Beachpoint Blvd,(java.lang.String) Brampton,(java.lang.String) Ohio,(java.lang.String) 67597.0,(java.lang.String) United States,(java.lang.String) Nothing,(java.lang.String) 123.0,(java.lang.String) same as above]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void com.automationPractice.qa.tests.E2ETC.E2E(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.CharSequence[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: E2E([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=11, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=12, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=13, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=14, type=[Ljava.lang.CharSequence;, declaredAnnotations=[]}, Parameter{index=15, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=16, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=17, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=18, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) er.ambrishmalwa1@gmail.com,(java.lang.String) Ambrish,(java.lang.String) Malwa,(java.lang.String) Ambrish123,(java.lang.String) 24.0,(java.lang.String) November,(java.lang.String) 1987.0,(java.lang.String) Ambrish,(java.lang.String) Malwa,(java.lang.String) ABC,(java.lang.String) 51.0,(java.lang.String)  Beachpoint Blvd,(java.lang.String) Brampton,(java.lang.String) Ohio,(java.lang.String) 67597.0,(java.lang.String) United States,(java.lang.String) Nothing,(java.lang.String) 123.0,(java.lang.String) same as above]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:905)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2E -->
+      </class> <!-- com.automationPractice.qa.tests.E2ETC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
