@@ -32,6 +32,7 @@ public class ContactUsPageTest extends Base {
 	public void initializeBroswer_hitURL () throws IOException {
 		driver= initializeDriver();
 		driver.get(prop.getProperty("url"));
+		System.out.println("before m");
 	}
 
 	@Test(dataProvider="get_contactUsForm_Data")
